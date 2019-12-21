@@ -15,6 +15,7 @@ To do this, we will take a look at the following aspects
 * How to make a simple HTTP request in Haskell
 * How to use lenses to extract values inside a nested JSON object
 
+
 First we need to create and set up our project.
 
 ## Stack
@@ -125,7 +126,10 @@ To install ghcid : run `stack install ghcid`.
 
 For our project we can use the command `ghcid -r` , which will compile the project and run the main function when you save any changes.
 
-A decent alternative if you don't want to install `ghcid`, albeit not as fast, is `stack build --exec bitcoin --file-watch --fast`.
+A decent alternative if you don't want to install `ghcid`, albeit not as fast, is 
+```
+stack build --exec bitcoin --file-watch --fast
+```
 
 
 Now we are ready to start developing our application.
@@ -356,13 +360,13 @@ Which means that we are done.
 ## Conclusion
 
 
-I hope this walk through gave some insight into how to you can use Haskell in a more practical context.
+I hope this walk through gave you some insight into how to you can use Haskell in a somewhat practical context.
 And perhaps inspire you to create a personal project using Haskell.
 
 
 ### Github
 
-The project source code is available at [Github](https://github.com/morteako/small/tree/master/small).
+The project source code is available at [Github](https://github.com/morteako/bitcoin).
 
 
 ### Footnotes
