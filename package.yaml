@@ -1,0 +1,25 @@
+name:                bitcoin
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/githubuser/bitcoin#readme
+license:             BSD3
+author:              Author name here
+maintainer:          example@example.com
+copyright:           2019 Author name here
+category:            Web
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - lens
+  - lens-aeson
+  - bytestring
+  - text
+  - http-conduit
+
+executables:
+  bitcoin:
+    source-dirs:      src
+    main:             Main.hs
